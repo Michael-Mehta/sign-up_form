@@ -1,0 +1,89 @@
+body{
+    display:flex;
+    flex-direction: row;
+    
+    
+}
+.pumpkins{
+    flex:1 1 auto;
+    width: 65%;
+    height: 100%;
+}
+.formSide{
+    display: flex;
+    flex-direction: column;
+    padding-top:100px;
+    width:200%;
+    margin-left: -250px;
+    
+    flex: 1 1 auto;
+}
+.login{
+    padding-top:100px;
+    box-shadow: -1px 4px 12px 0px rgba(0,0,0,0.61);
+}
+.form-content{
+    display: flex;
+    flex-direction: column;
+}
+
+.login h1{
+    margin-top:-60px;
+    padding:25px;
+}
+
+fieldset{
+    
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+    border-style: none;
+    padding-bottom: 25px;
+    
+}
+
+input{
+    border-radius: 5px;
+    border-color: rgb(200, 196, 196);
+}
+
+.left_half{
+display: flex;
+justify-content: space-around;
+flex-direction: column;
+}
+
+.left_half div{
+    padding: 10px;
+}
+.right_half{
+
+
+    display: flex;
+    align-content: space-around;
+    flex-direction: column;
+    
+}
+.right_half div{
+    padding:10px;
+}
+
+.formSide button{
+    margin-top: 50px;
+    border-radius: 5px;
+    border-color: rgb(218, 218, 218);
+    background-color: orangered;
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right:20px;
+    padding-bottom: 5px;
+}
+
+.bottom{
+    padding-top:10px;
+}
+.bottom p a{
+    text-decoration: none;
+    color: orangered;
+}
